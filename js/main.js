@@ -4,7 +4,7 @@ $(document).ready(function(){
         items:3,
         loop:true,
         autoplay:true,
-        autoplayTimeout:3000,
+        autoplayTimeout:5000,
         responsiveClass:true,
         responsive:{
             0:{
@@ -20,9 +20,14 @@ $(document).ready(function(){
                 items:3
             },
             1900:{
-                items:4
+                items:3
             }
         }
 
     });
+
+    //Wow
+    new WOW().init();
+
   });
+
